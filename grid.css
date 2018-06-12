@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-columns: 15% 85%;
+  }
+  nav {
+    grid-column: 1; /* placement en colonne 1 */
+    background-color:#567757;
+  }
+  main {
+    background-color:#865667;
+    grid-column: 2; /* placement en colonne 2 */
+  }

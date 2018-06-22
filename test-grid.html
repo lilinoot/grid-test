@@ -1,14 +1,35 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="grid.css" media="screen" />
-    </head>
-    <body>
-            <nav>
-                Menu
-            </nav>
-            <main class="content">
-                Contenu
-            </main>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="grid.css" media="screen" />
+    <title>Grid</title>
+</head>
+
+<body>
+    <a class="toggle open" href="#nav">
+            <svg width="30" height="30" id="icoOpen">
+                    <path d="M0,5 30,5" stroke="#6E6C95" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#6E6C95" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#6E6C95" stroke-width="5"/>
+            </svg>
+    </a>
+    <div class="container">
+        <header>header</header>
+        <nav id="nav" role="navigation">  
+                <a class="toggle close" href="#">×</a>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+        </nav>
+        <article>article</article>
+        <footer>footer</footer>
+    </div>   
+</body>
 </html>
